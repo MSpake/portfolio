@@ -1,9 +1,13 @@
 import React from 'react';
 
-class LandingPage extends React.Component {
+export default class LandingPage extends React.Component {
   render() {
     return (
-      <div></div>
+      <div>LandingPage</div>
     );
   }
 }
+
+//Background of some kind. Image? Video?
+//Name, title, view portfolio button, maybe github/linkedin/email
+//Full page, at any size

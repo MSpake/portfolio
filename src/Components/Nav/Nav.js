@@ -1,9 +1,21 @@
 import React from 'react';
 
-class Nav extends React.Component {
+export default class Nav extends React.Component {
   render() {
     return (
-      <div></div>
+      <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Expereince</li>
+        <li>Contact</li>
+      </nav>
     );
   }
 }
+
+//Home (landing page)
+//About
+//Projects
+//Expereince
+//Contact

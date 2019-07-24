@@ -1,9 +1,12 @@
 import React from 'react';
 
-class Contact extends React.Component {
+export default class Contact extends React.Component {
   render() {
     return (
-      <div></div>
+      <div>Contact</div>
     );
   }
 }
+
+//Email, phone, linkedin, github
+//Email contact form???

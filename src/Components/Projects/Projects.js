@@ -1,9 +1,13 @@
 import React from 'react';
 
-class Projects extends React.Component {
+export default class Projects extends React.Component {
   render() {
     return (
-      <div></div>
+      <div>Projects</div>
     );
   }
 }
+
+//Map stored project objects (links, images, description)
+//Change layout based on screen size
+//Select projects carefully
