@@ -1,16 +1,15 @@
 import React from 'react';
+import './reset.css';
 import './app.css';
+import LandingPage from './Components/LandingPage/LandingPage';
+import Main from './Components/Main/Main';
 
 function App() {
   return (
-    <div className="app">
-      <header className="App-header">
-        <p>
-          Hello World
-        </p>
-        <p>I'm alive</p>
-      </header>
-    </div>
+    <>
+    <LandingPage />
+    <Main />
+    </>
   );
 }
 
