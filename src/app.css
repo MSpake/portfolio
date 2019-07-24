@@ -1,5 +1,5 @@
 
-.app {
-  background-color: burlywood;
-  text-align: center;
+* {
+  margin: 10px;
+  line-height: 120%;
 }
