@@ -1,5 +1,4 @@
 import React from 'react';
-import './reset.css';
 import './app.css';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Main from './Components/Main/Main';
