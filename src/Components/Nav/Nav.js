@@ -5,9 +5,9 @@ export default class Nav extends React.Component {
     return (
       <nav>
         <li>Home</li>
-        <li>About</li>
         <li>Projects</li>
         <li>Expereince</li>
+        <li>About</li>
         <li>Contact</li>
       </nav>
     );
