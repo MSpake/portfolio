@@ -1,0 +1,32 @@
+#landingPage{
+  height: 100vh;
+  background-image: url('../../assets/laptop-coffee-notebook.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  /* background-color: aqua; */
+  margin-bottom: 30px;
+}
+
+#mainInfo {
+  background-color: #C0C9B2;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  top: 45vh;
+  left: 30vh;
+  padding: 40px;
+  color: Black;
+}
+
+#mainInfo > h1 {
+  font-size: 4.5em;
+}
+
+#mainInfo > h2 {
+  font-size: 2.7em;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
