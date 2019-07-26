@@ -13,30 +13,30 @@
   background-color: #31313348;
   text-align: center;
   position: relative;
-  top: 10%;
+  top: 5vh;
 }
 
 #mainInfo > h1 {
   /* font-family: 'Forum', cursive; */
   color: white;
   font-size: 5em;
-  margin-bottom: 20%;
+  margin-bottom: 9vh;
   font-weight: bold;
-  line-height: 125%;
+  line-height: 15vh;
 }
 
 #mainInfo > h2 {
   /* font-family: 'Forum', cursive; */
   color: white;
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 9vh;
   font-weight: bold;
 }
 
 button {
   /* font-family: 'Forum', cursive; */
   display: block;
-  margin: 10px auto;
+  margin: 5vh auto;
   padding: 8px 12px;
   border-radius: 6px;
   border: 1px solid #858B38;
@@ -50,6 +50,13 @@ button {
   color: #858B38;
 }
 
+#copyright {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.418);
+}
+
 @media (min-width: 768px){
   #mainInfo {
     text-align: left;
@@ -61,8 +68,12 @@ button {
   #mainInfo > h1 {
     font-size: 5em;
     line-height:normal;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 60%;
+  }
+
+  #mainInfo > h2 {
+    margin-bottom: 20px;
   }
 
   button {
