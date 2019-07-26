@@ -11,10 +11,10 @@ export default class LandingPage extends React.Component {
         <section id="mainInfo">
           <h1>Morgana Spake</h1>
           <h2>Software Developer</h2>
-          <button>View portfolio</button>
           <FontAwesomeIcon icon={ faGithub } />
           <FontAwesomeIcon icon={ faLinkedin } />
           <FontAwesomeIcon icon={ faEnvelope } />
+          <button>View portfolio</button>
         </section>
       </div>
     );

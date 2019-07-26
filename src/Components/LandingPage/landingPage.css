@@ -11,39 +11,71 @@
 
 #mainInfo {
   background-color: #31313348;
-  width: 100%;
-  text-align: left;
+  text-align: center;
   position: relative;
-  top: 50vh;
-  padding: 40px;
-  padding-left: 12vw;
-  border-radius: 50px;
+  top: 10%;
 }
 
 #mainInfo > h1 {
-  font-family: 'Forum', cursive;
+  /* font-family: 'Forum', cursive; */
   color: white;
-  font-size: 6em;
-  margin-bottom: 20px;
+  font-size: 5em;
+  margin-bottom: 20%;
   font-weight: bold;
+  line-height: 125%;
 }
 
 #mainInfo > h2 {
-  font-family: 'Forum', cursive;
+  /* font-family: 'Forum', cursive; */
   color: white;
-  font-size: 4em;
+  font-size: 2.5em;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 button {
+  /* font-family: 'Forum', cursive; */
   display: block;
-  margin: 10px;
-  padding: 8px;
-  border-radius: 10px;
+  margin: 10px auto;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #858B38;
+  color: white;
+  background: none;
+  font-size: 1.5em;
 }
 
 #mainInfo > svg {
   font-size: 3.5em;
-  color: white;
+  color: #858B38;
+}
+
+@media (min-width: 768px){
+  #mainInfo {
+    text-align: left;
+    top: 50vh;
+    padding: 20px 40px;
+    padding-left: 12vw;
+  }
+  
+  #mainInfo > h1 {
+    font-size: 5em;
+    line-height:normal;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+
+  button {
+    margin: 10px;
+    padding: 8px 12px;
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  #mainInfo > h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    width: 80%;
+  }
 }
