@@ -1,32 +1,49 @@
 #landingPage{
   height: 100vh;
-  background-image: url('../../assets/laptop-coffee-notebook.jpg');
+  background-image: url('../../assets/will-porada-y-6fm55D0nU-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center; 
+  background-size: cover;
   /* background-color: aqua; */
+  opacity: 0.5;
   margin-bottom: 30px;
 }
 
 #mainInfo {
-  background-color: #C0C9B2;
+  /* background-color: #070707dc; */
   width: 30%;
   text-align: center;
   position: relative;
-  top: 45vh;
-  left: 30vh;
+  top: 33vh;
+  left: 58.5vw;
   padding: 40px;
-  color: Black;
+  /* color: #C7C7C7; */
+  border-radius: 50px;
 }
 
 #mainInfo > h1 {
   font-size: 4.5em;
+  margin: 8px;
+  font-weight: bold;
 }
 
 #mainInfo > h2 {
   font-size: 2.7em;
+  margin: 8px;
+  font-weight: bold;
 }
 
 button {
   display: block;
-  margin: auto;
+  margin: 10px auto;
+  /* background-color: #070707;
+  border: 2px solid rgba(225, 69, 17, 0.562);
+  color: #C7C7C7; */
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#mainInfo > svg {
+  /* color: #E14511; */
+  font-size: 2em;
 }
