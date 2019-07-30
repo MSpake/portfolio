@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export default class Contact extends React.Component {
   render() {
     return (
-      <section>
+      <article id="contact">
         <h2>Contact</h2>
         <ul>
           <li>
@@ -22,7 +22,7 @@ export default class Contact extends React.Component {
             <a href="https://www.linkedin.com/in/morganaspake/">linkedin.com/in/morganaspake</a>
           </li>
         </ul>
-      </section>
+      </article>
     );
   }
 }

@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
-  margin-bottom: 30px;
 }
 
 #mainInfo {
@@ -48,6 +47,7 @@ button {
 #mainInfo > svg {
   font-size: 3.5em;
   color: #858B38;
+  margin: 10px;
 }
 
 #copyright {

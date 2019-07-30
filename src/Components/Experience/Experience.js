@@ -3,7 +3,7 @@ import React from 'react';
 export default class Experience extends React.Component {
   render() {
     return (
-      <section>
+      <article id="experience">
         <h3>Work Experience</h3>
         <div>
           <p>Costume Technician | 2011 - 2019 | <a href="http://morganaspake.weebly.com/">http://morganaspake.weebly.com/</a></p>
@@ -20,7 +20,7 @@ export default class Experience extends React.Component {
           <p>Western Washington Theatrical Training Trust | Seattle, WA | 2014, 2017 | Ongoing Education in Draping</p>
           <p>Southern Oregon University | Ashland, OR | 2012 | BFA, Theatre Arts: Costume Construction and Design</p>
         </div>
-      </section>
+      </article>
     );
   }
 }
