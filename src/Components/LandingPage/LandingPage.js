@@ -14,7 +14,8 @@ export default class LandingPage extends React.Component {
           <FontAwesomeIcon icon={ faGithub } />
           <FontAwesomeIcon icon={ faLinkedin } />
           <FontAwesomeIcon icon={ faEnvelope } />
-          <button>Learn More</button>
+          {/* <button>Learn More</button> */}
+          <a id="button" href="#nav">Learn More</a>
         </section>
         <p id="copyright">Image Copyright © 2015 Morgana Spake</p>
       </div>

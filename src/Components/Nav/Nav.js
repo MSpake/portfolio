@@ -4,7 +4,7 @@ import './nav.css';
 export default class Nav extends React.Component {
   render() {
     return (
-      <nav>
+      <nav id="nav">
         <ul>
           <li><a href="#landingPage">Home</a></li>
           <li><a href="#projects">Projects</a></li>

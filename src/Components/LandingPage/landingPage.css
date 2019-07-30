@@ -32,16 +32,18 @@
   font-weight: bold;
 }
 
-button {
+#button {
   /* font-family: 'Forum', cursive; */
   display: block;
   margin: 5vh auto;
+  width: fit-content;
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1px solid #858B38;
+  border: 3px solid #858B38;
   color: white;
   background: none;
   font-size: 1.5em;
+  text-decoration: none;
 }
 
 #mainInfo > svg {
@@ -76,7 +78,7 @@ button {
     margin-bottom: 20px;
   }
 
-  button {
+  #button {
     margin: 10px;
     padding: 8px 12px;
     font-size: 1.5em;
