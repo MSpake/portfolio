@@ -1,5 +1,16 @@
 
 * {
-  margin: 10px;
-  line-height: 120%;
+  box-sizing: border-box;
+}
+
+article {
+  height: 100vh;
+  background-color: rgba(133, 139, 56, 0.274);
+}
+
+article h2 {
+  background-color: rgba(133, 139, 56, 0.445);
+  font-size: 2em;
+  text-align: center;
+  padding: 10px 0;
 }

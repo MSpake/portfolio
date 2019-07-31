@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
   }
   render() {
     return (
-      <article>
+      <article id="projects">
         <h2>Projects</h2>
         { this.state.projects.map( project => (
           <section key={ project.title }>

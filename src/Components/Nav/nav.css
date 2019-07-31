@@ -1,0 +1,29 @@
+nav {
+  margin: none;
+}
+nav > ul {
+  height: 60px;
+  background-color: #858B38;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 115%;
+  color: rgba(0, 0, 0, 0.904);
+}
+
+@media (min-width: 768px){
+  nav a {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+}

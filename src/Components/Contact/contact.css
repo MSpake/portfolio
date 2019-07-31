@@ -1,0 +1,17 @@
+#contact ul {
+  text-align: center;
+}
+
+#contact li {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 30px 0;
+  font-size: 1.3em;
+}
+
+#contact svg {
+  cursor: pointer;
+  font-size: 2em;
+  /* display: block; */
+}
